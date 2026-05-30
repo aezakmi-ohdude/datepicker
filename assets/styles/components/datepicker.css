@@ -28,11 +28,7 @@
     aspect-ratio: 1/1;
     transition: all 0.25s linear;
     border: 1px solid transparent;
-
-}
-
-.datepicker__toggle-icon{
-
+    
     img{
 
         filter: invert(100%);
@@ -40,6 +36,12 @@
         height: 50%;
         transition: filter 0.25s linear;
     }
+
+}
+
+.datepicker__toggle-icon{
+
+    
 }
 
 .datepicker__toggle:hover{
